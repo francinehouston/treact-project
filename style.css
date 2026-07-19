@@ -668,6 +668,8 @@ button {
     opacity: 0.25;
 }
 
+/* Testimonials */
+
 .testimonial {
     margin-top: 40px;
 }
@@ -720,7 +722,27 @@ button {
     align-items: center;
 }
 
+.testimonial__button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    background: #edf2f7;
+    border-radius: 50%;
+    margin: 0 12px;
+    transition: all 300ms ease;
+}
 
+.divider{
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
+    width:0.5px;
+    background-color: #edf2f7;
+    height: 20px;
+}
+
+
+/* Start */
 
 .start__blob--1{
     position: absolute;
@@ -804,3 +826,86 @@ button {
     z-index: 1;
     opacity: 0.5;
 }
+
+.footer__columns {
+    margin-top: -48px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer__column{
+    margin-top: 48px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    z-index:2;
+}
+
+.footer__column--title {
+    font-weight: 700;
+    color: #f7fafc;
+    line-height: 1.5;
+}
+
+.footer__column--link {
+    color:#f7fafc;
+    font-size: 14px;
+    margin-top: 12px;
+    line-height: 1.5;
+    font-weight: 500;
+    position: relative;
+    cursor: pointer;
+
+}
+
+.footer__divider{
+    width:100%;
+    height:2px;
+    margin: 64px 0;
+    background: rgb(116,44,255);
+}
+
+
+.footer_bottom{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.footer__logo{
+    display: flex;
+    align-items: center;
+}
+
+.footer__logo--text {
+    font-size: 20px;
+    color: #f7fafc;
+    font-weight: 900;
+    margin-left: 8px;
+    letter-spacing: 0.05rem;
+}
+
+.footer__copyright {
+    color:#cbd5e0;
+    font-weight: 500;
+}
+
+.footer__socials {
+    display: flex;
+    align-items: center;
+    margin-left: -16px;
+}
+
+.footer__social--link {
+    margin-left: 16px;
+    padding: 8px;
+    background: #f7fafc;
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    z-index: 2;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+
