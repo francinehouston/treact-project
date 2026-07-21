@@ -377,7 +377,8 @@ h2 {
 }
 
 
-.quality__description .quality__img--wrapper{
+.quality__description ,
+.quality__img--wrapper{
     width:50%;
 }
 
@@ -843,7 +844,7 @@ footer {
     flex-wrap: wrap;
 }
 
-.footer__column{
+.footer__column {
     margin-top: 48px;
     display: flex;
     flex-direction: column;
