@@ -425,6 +425,12 @@ h2 {
     margin-top: 32px;
 }
 
+.quality__img ,
+.steps__img {
+    width:100%;
+    display: block;
+}
+
 /* Steps */
 
 #steps .row {
@@ -439,6 +445,7 @@ h2 {
 
 .steps__img {
     z-index:2;
+    position: relative;
 }
 
 .steps__description {
@@ -669,6 +676,48 @@ button {
     opacity: 0.25;
 }
 
+.plan:nth-child(1)
+.plan__stripe,
+.plan:nth-child(1)
+.plan__button {
+    background: linear-gradient(115deg,
+    rgb(56,178,172),
+    rgb(129,230,217)
+    );
+}
+
+.plan:nth-child(2) {
+    background: linear-gradient(135deg,
+    rgb(76,81,191),
+    rgb(102,126,234));
+}
+
+.plan:nth-child(2) .plan__name,
+.plan:nth-child(2) .plan__price,
+.plan:nth-child(2) .plan__duration,
+.plan:nth-child(2) .plan__target,
+.plan:nth-child(2) .plan__feature {
+    color: white;
+}
+
+.plan:nth-child(2) .plan__button {
+    background: white;
+    color: #6415ff;
+}
+
+
+.plan:nth-child(3) .plan__stripe,
+.plan:nth-child(3) .plan__button {
+    background: linear-gradient(
+        115deg,
+        rgb(245,101,101),
+        rgb(254,178,178)
+    );
+}
+
+
+
+
 /* Testimonials */
 
 .testimonial {
@@ -877,7 +926,7 @@ footer {
 }
 
 
-.footer_bottom{
+.footer__bottom{
     display: flex;
     justify-content:space-between;
     align-items: center;
@@ -919,3 +968,8 @@ footer {
     transition: all 300ms ease;
 }
 
+.footer__logo--img {
+    width: 32px;
+    height: 32px;
+
+}
